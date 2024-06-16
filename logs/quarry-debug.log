@@ -1,11 +1,29 @@
-[2024-06-16T12:33:14,897][W] [TQW/initialLog]: Config in 'All the Mods 9'
+[2024-06-16T13:32:30,581][W] [TQW/initialLog]: Config in 'All the Mods 9'
 {
-  "server": {
-    "machineWork": {
-      "unworkableDimensions": []
-    }
-  },
   "common": {
+    "acceptableEnchantmentsMap": {
+      "mini_quarry": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking"
+      ],
+      "adv_quarry": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking",
+        "minecraft:fortune",
+        "minecraft:silk_touch"
+      ],
+      "adv_pump": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking",
+        "minecraft:fortune"
+      ],
+      "quarry": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking",
+        "minecraft:fortune",
+        "minecraft:silk_touch"
+      ]
+    },
     "powerMap": {
       "mini_quarry": {
         "maxEnergy": 1000.0,
@@ -107,29 +125,11 @@
       "allowWorkInClaimedChunkByFBTChunks": false,
       "enableChunkLoader": false,
       "logAllQuarryWork": false
-    },
-    "acceptableEnchantmentsMap": {
-      "mini_quarry": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking"
-      ],
-      "adv_quarry": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking",
-        "minecraft:fortune",
-        "minecraft:silk_touch"
-      ],
-      "adv_pump": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking",
-        "minecraft:fortune"
-      ],
-      "quarry": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking",
-        "minecraft:fortune",
-        "minecraft:silk_touch"
-      ]
+    }
+  },
+  "server": {
+    "machineWork": {
+      "unworkableDimensions": []
     }
   }
 }
